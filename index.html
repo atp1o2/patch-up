@@ -13,10 +13,28 @@
   <script src='lib/lodash.js'></script>
   
   <link href="css/app.css" rel="stylesheet">
+  <link href="css/utilities.css" rel="stylesheet">
   <link href='node_modules/bootstrap/dist/css/bootstrap.css' rel="stylesheet"></link>
 </head>
 
 <body ng-app='patchUp'>
+
+  <nav class='debug h-10 navbar navbar-full gray'>
+    <div class='debug container'>
+      <p class='debug center'>PatchUps Title</p>
+      
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item pull-xs-right">
+            <a class="" href="">Login</a>
+          </li>
+        </ul>
+
+    </div>
+  </nav>
+
   <main class='debug' ui-view></main>  
 </body>
 
