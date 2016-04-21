@@ -1,14 +1,8 @@
 <div class='container'>
   
-  <div class='row'>
-    <div class='debug col-md-6 text-center'>
-      <p>Hello world</p> 
-      <p>{{message}}</p>
-    </div>
-
-    <div class="debug col-md-6">
-      <p>Second div</p>
-      <p>Second div</p>
+  <div class='row m-2'>
+    <div class='debug col-md-12 center'>
+      <button type="button" ng-repeat='game in games' class="btn btn-lg btn-primary-outline m-1">{{ game.name }}</button>
     </div>
   </div>
 
