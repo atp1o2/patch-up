@@ -1,1 +1,10 @@
-.debug { border: 1px red solid; }
+.date-box {
+  display: inline-block;
+  border: 2px black solid;
+  /*margin: 3em;*/
+  padding: 1.5em;
+}
+
+.content {
+  display: inline-block;
+}

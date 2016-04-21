@@ -18,11 +18,11 @@ angular.module('patchUp', [
       templateUrl: 'views/mainView.html',
       controller: 'mainCtrl'
     })
-    .state('Main.Select', {
-      url: '/Select',
-      templateUrl: 'views/selectView.html',
-      controller: 'selectCtrl'
-    })
+    // .state('Main.Select', {
+    //   url: '/Select',
+    //   templateUrl: 'views/selectView.html',
+    //   controller: 'selectCtrl'
+    // })
     .state('Main.Feed', {
       url: '/Feed',
       templateUrl: 'views/feedView.html',

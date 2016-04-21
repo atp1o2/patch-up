@@ -1,17 +1,23 @@
-<aside class='container debug'>
+<aside class='debug container white'>
 
 
-  <div class='row'>
-    <div class='col-md-5 debug'>
-      <p>this is the FEED VIEW</p>
-    </div>
+  <div class='row' ng-repeat='post in posts'>
+    <div class='debug col-xs-12 h-7 m-b-2'>
 
-    <div class='col-md-5 debug'>
-      <p>this is the FEED VIEW</p>
+      
+      <div class="date-box col-xs-1">
+        <h4>{{ post.date }}</h4>
+      </div>
+
+      <div class='debug content col-xs-11'>
+        <h3><u>{{ post.name }}</u></h3>
+        <p>{{ post.content }}</p>
+      </div>
+
+      
+
+
     </div>  
   </div>
-
-    
-    <button type="button" class="btn btn-primary">Secondary</button>
 
 </aside>
