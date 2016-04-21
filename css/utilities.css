@@ -1,8 +1,10 @@
 .debug { border: 1px red solid; }
 .center { text-align: center; }
 .inline { display: inline; }
+.inline-b { display: inline-block; }
 
 
+.h-2 { height: 2em; }
 .h-5 { height: 5em; }
 .h-7 { height: 7em; }
 .h-10 { height: 10em; }
@@ -15,5 +17,6 @@
 
 
 /*--------- color ---------*/
-.gray { background-color: #ecf0f1; }
+.gray { background-color: #bdc3c7; }
 .green { background-color: #16a085; }
+.white { background-color: white; }
