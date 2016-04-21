@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PatchUps</title>
+
+  <!-- /////////////// LIBRARY /////////////// -->
+  <script src='lib/angular/angular.min.js'></script>
+  <script src='lib/angular/angular-ui-router.min.js'></script>
+  <script src='lib/angular/angular-bootstrap.min.js'></script>
+
+  <!-- /////////////// NODE /////////////// -->
+  <script src='node_modules/jquery/dist/jquery.min.js'></script>
+  <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+
+  <!-- /////////////// CSS /////////////// -->
+  <link href="css/app.css" rel="stylesheet">
+</head>
+
+<body ng-app='patchUp'>
+  <main ui-view></main>  
+</body>
+
+  <!-- /////////////// ANGULAR /////////////// -->
+  <script src='app.js'></script>
+  <script src='js/controllers/homeCtrl.js'></script>
+  <script src='js/directives.js'></script>
+  <script src='js/services.js'></script>
+  <script src='js/filters.js'></script>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "patchup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atp1o2/patch-up.git"
+  },
+  "author": "atp",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.3"
+  }
+}
