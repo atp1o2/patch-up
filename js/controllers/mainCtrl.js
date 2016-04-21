@@ -1,7 +1,8 @@
 'use strict'
 
+// controls header info 
 angular.module('patchUp')
 
-.controller('homeCtrl', function ($scope) {
+.controller('mainCtrl', function ($scope) {
   $scope.message = 'I am here.';
 });

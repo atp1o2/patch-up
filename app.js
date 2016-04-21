@@ -7,23 +7,33 @@ angular.module('patchUp', [
 
 .config(function ($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.otherwise(function ($injector, $location) {
-    var $state = $injector.get('$state');
-    $state.go('home');
-  });
+  // $urlRouterProvider.otherwise(function ($injector, $location) {
+  //   var $state = $injector.get('$state');
+  //   $state.go('Main');
+  // });
 
   $stateProvider
-    .state('home', {
-      url: '/',
-      templateUrl: 'views/homeView.html',
-      controller: 'homeCtrl'
+    .state('Main', {
+      url: '/Main',
+      templateUrl: 'views/mainView.html',
+      controller: 'mainCtrl'
+    })
+    .state('Main.Select', {
+      url: '/Select',
+      templateUrl: 'views/selectView.html',
+      controller: 'selectCtrl'
+    })
+    .state('Main.Feed', {
+      url: '/Feed',
+      templateUrl: 'views/feedView.html',
+      controller: 'feedCtrl'
+    })
+    .state('Main.Update', {
+      url: '/Update/:id',
+      templateUrl: 'views/updateView.html',
+      controller: 'updateCtrl'
     })
 
-    .state('game', {
-      url: '/game',
-      templateUrl: 'views/gameView.html',
-      controller: 'homeCtrl'
-    })
 
 
 
