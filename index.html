@@ -4,25 +4,23 @@
   <meta charset="UTF-8">
   <title>PatchUps</title>
 
-  <!-- /////////////// LIBRARY /////////////// -->
+  <script src='node_modules/jquery/dist/jquery.min.js'></script>
+  <script src='lib/tether.min.js'></script>
+  <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
   <script src='lib/angular/angular.min.js'></script>
   <script src='lib/angular/angular-ui-router.min.js'></script>
-  <script src='lib/angular/angular-bootstrap.min.js'></script>
-  <script src='lib/tether.min.js'></script>
-
-
-  <!-- /////////////// NODE /////////////// -->
-  <script src='node_modules/jquery/dist/jquery.min.js'></script>
-  <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
-
+  <script src='node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js'></script>
+  <script src='lib/lodash.js'></script>
+  
   <!-- /////////////// CSS /////////////// -->
   <link href="css/app.css" rel="stylesheet">
+  <link href='node_modules/bootstrap/dist/css/bootstrap.css' rel="stylesheet"></link>
+
 </head>
 
 <body ng-app='patchUp'>
-  <main ui-view></main>  
+  <main class='debug' ui-view></main>  
 </body>
-
   <!-- /////////////// ANGULAR /////////////// -->
   <script src='app.js'></script>
   <script src='js/controllers/homeCtrl.js'></script>
