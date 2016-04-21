@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('patchUp', [
-  'ui.router'
+  'ui.router',
+  'ui.bootstrap'
 ])
 
 .config(function ($stateProvider, $urlRouterProvider) {
@@ -14,7 +15,7 @@ angular.module('patchUp', [
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'views/home.html',
+      templateUrl: 'views/homeView.html',
       controller: 'homeCtrl'
     })
 
